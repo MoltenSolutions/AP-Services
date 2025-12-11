@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+
+# --- Virtual Environment ---
+venv/
+.venv/
+
+# --- Environment Variables ---
+.env
+*.env
+
+# --- Django ---
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# --- Migrations ---
+*/migrations/*__pycache__/
+*/migrations/*.pyc
+# Keep init files
+!*/migrations/__init__.py
+
+# --- Logs ---
+*.log
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Node / Frontend (if using Tailwind, React, etc.) ---
+node_modules/
+dist/
+build/
+
+# --- Compiled ---
+*.egg-info/
+.eggs/
